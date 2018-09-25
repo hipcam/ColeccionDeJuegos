@@ -46,6 +46,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let siguienteVC = segue.destination as! JuegoViewController
         siguienteVC.juego = sender as? Juego
     }
-
+//falta probar cámara en iPhone
 }
 

@@ -30,7 +30,7 @@ class JuegoViewController: UIViewController, UIImagePickerControllerDelegate, UI
         }else{
             eliminarBoton.isHidden = true
            
-            agregarActualizarBoton.isHidden = true
+            agregarActualizarBoton.setTitle("Guardar", for: .normal)
         }
    
     }
